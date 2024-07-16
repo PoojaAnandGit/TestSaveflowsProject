@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestSaveflowsProject
+  gitServerName: test1
+  gitUrl: https://github.com/PoojaAnandGit/TestSaveflowsProject
+  gitUsername: PoojaAnandGit
+  gitBranch: main
