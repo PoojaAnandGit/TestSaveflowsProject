@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/PoojaAnandGit/TestSaveflowsProject
   gitUsername: PoojaAnandGit
   gitBranch: main
+services:
+- serviceName: project.testsaveflows.integrations:e1
+  packages:
+  - name: TestSaveflowsProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.1014
