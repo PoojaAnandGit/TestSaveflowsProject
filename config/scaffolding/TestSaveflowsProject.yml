@@ -20,3 +20,7 @@ services:
   packages:
   - name: TestSaveflowsProject
     version: "1.0"
+- serviceName: project.testsaveflows.integrations:customflow
+  packages:
+  - name: TestSaveflowsProject
+    version: "1.0"
